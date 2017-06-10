@@ -1,0 +1,343 @@
+/*border: 2px green solid;*/
+
+/* GLOBAL */
+body{
+margin: 0;
+padding: 0;
+font-size: 16px; /* base font-size */
+line-height: 1.5rem;
+font-family: helvetica;
+color: rgb(74, 74, 74);
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*end GLOBAL */
+
+
+/* ------------------------------------------------- */
+
+/* HEADER */
+header{
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.top-brand{
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.top-brand #dark{
+    font-weight: bold;
+}
+
+.top-brand #light{
+    color: rgb(155, 155, 155);
+  }
+
+nav a{
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+}
+
+nav span{
+  padding-right: 1rem;
+}
+
+/*end HEADER */
+
+/* ------------------------------------------------- */
+
+/* banner */
+
+.banner {
+  padding-top: 4rem;
+  background-color: rgb(216, 216, 216);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-media{    /*banner's media container */
+  width: 60%;     /*relative width of the total parent's (.banners)  width */
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner-cta{    /*banner's Call To Action container */
+  width: 40%;   /*relative width of the total parent's (.banners)  width */
+}
+
+.banner-txt{
+  width: 60%;
+}
+
+.banner-txt p{
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.banner-txt h2{
+  font-size: 3rem;
+  line-height: normal;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+
+.banner-btn{
+  width: 50%;
+  border-radius: 0.30rem;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: rgb(74, 74, 74);
+  transition: background-color 0.5s linear;
+}
+
+.banner-btn span{
+  color: rgb(255, 255, 255);
+}
+
+.banner-btn a{
+  text-decoration: none;
+}
+
+.banner-btn:hover{
+  background-color: rgb(140, 140, 140);
+}
+
+/*END banner */
+
+/* ------------------------------------------------- */
+
+/* inforamtion section */
+.container.information{
+  background-color: rgb(243, 245, 245);
+  width: 100%;
+  display: flex;
+
+}
+
+/* main column */
+.main{
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+  border-right: rgb(224, 226, 226) thin solid;
+}
+
+.main-media img{
+  width: 100%;
+}
+
+.main-txt{
+  margin-top: 2rem;
+}
+
+.main-txt h3{
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main-txt #signature{
+  padding-top: 2.5rem;
+}
+/* END main column */
+
+.border{
+  /*height: 0rem;*/
+  width: 26.4375rem;
+  border: rgb(224, 226, 226) thin solid;
+}
+
+/* secondary column */
+.sec{
+  padding-top: 1rem;
+  width: 40%;
+}
+
+.sec-article{
+  display: inline-flex;
+  align-items: center;
+}
+
+.article-img{
+  width: 35%;
+  padding: 1rem 1rem;
+}
+
+.article-img img{
+  width: 100%;
+}
+
+.article-txt{
+width: 65%;
+}
+
+.article-txt h4{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.article-txt p{
+  padding: 0.5rem 0;
+}
+
+.article-txt a{
+  text-decoration: none;
+  color: rgb(101, 161, 229)
+}
+
+#guestlecture{
+  background-color: rgb(216, 216, 216);
+}
+
+/* END secondary column */
+
+/*END inforamtion section */
+
+/* ------------------------------------------------- */
+
+/* courses */
+.container.courses{
+  background-color: rgb(216, 216, 216);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.courses h3{
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.courses-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85%;
+  margin: auto;
+}
+
+.course{
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.course-img img{
+  width: 100%;
+}
+
+.course-txt{
+  padding: 1rem 1.5rem 1.5rem 1rem;
+}
+
+.course-txt h4{
+
+  font-weight: bold;
+}
+
+.course-txt p{
+  color: rgb(129, 129, 129);
+}
+
+.subtitle{
+  padding: 0.5rem 0;
+}
+/*END courses */
+
+/* ------------------------------------------------- */
+
+/* exhibit heading*/
+.exhibit.heading{
+background-color: rgb(243, 245, 245);
+}
+
+.exhibit h3{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/*END exhibit heading*/
+
+/* exhibit */
+
+.container.exhibit{
+  background-color: rgb(243, 245, 245);
+  width: 100%;
+  display: flex;
+}
+
+.exhibit .main{
+  border-right: none;
+}
+
+.exhibit .sec{
+  padding-top: 2rem;
+}
+
+.exhibit .main-media{
+padding-bottom: 0rem;
+}
+
+.main-media video{
+  width: 100%;
+}
+
+.exhibit .main-txt h4{
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#fisma{
+  background-color: rgb(216, 216, 216);
+}
+/*END exhibit */
+
+/* ------------------------------------------------- */
+
+/* footer */
+footer{
+  width: 100%;
+  background-color: rgb(243, 245, 245);
+  border-top: rgb(224, 226, 226) thin solid;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#bottom-brand{
+  padding-left: 1.5rem;
+}
+
+footer .policies{
+  float: right;
+  padding-right: 1.5rem;
+}
+
+/*END footer */
+
+/* ------------------------------------------------- */
