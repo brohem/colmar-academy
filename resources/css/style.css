@@ -56,6 +56,10 @@ nav span{
   font-size: 1em;
 }
 
+nav span:hover{
+  text-decoration: underline;
+}
+
 .mobile-nav{
   display: none;
 }
